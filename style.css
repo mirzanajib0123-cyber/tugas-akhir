@@ -161,6 +161,12 @@ button, input, select, textarea {
   margin: 20px 0;
 }
 
+.gradient-text {
+  background: linear-gradient(100deg, #75a1ff 10%, #75e5ec 54%, #b69cff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .hero-description {
   color: var(--muted);
   font-size: 15px;
@@ -288,6 +294,13 @@ button, input, select, textarea {
 .code-green { color: #8fe8bb; }
 .indent { padding-left: 20px; }
 .indent2 { padding-left: 40px; }
+
+.gradient-code {
+  font-weight: bold;
+  background: linear-gradient(90deg, #75a1ff, #6de2e9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .code-bottom {
   display: flex;
